@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".URLSEARCH">
+
+
+    <ProgressBar
+        android:id="@+id/myProgressBar"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:progressTint="@color/colorPrimary" />
+
+
+    <EditText
+        android:id="@+id/editText2"
+
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="61dp"
+        android:layout_weight='9'
+        android:hint="Enter Url"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="61dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="322dp"
+        android:layout_marginLeft="322dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="2"
+        android:backgroundTint="@color/colorPrimary"
+        android:drawableTop="@drawable/ic_search_black_24dp"
+        android:textColor="#ffffff"
+        android:textSize="12dp" />
+
+
+    <WebView
+        android:id="@+id/mywebView2"
+        android:layout_width="match_parent"
+        android:layout_height="448dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        tools:ignore="RtlCompat"></WebView>
+
+
+
+</RelativeLayout>
